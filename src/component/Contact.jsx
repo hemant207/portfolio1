@@ -29,14 +29,14 @@ function Contact() {
   return (
     <>
     
-    <div className='relative contect p-3'>
+    <div className='relative contect md:p-3'>
     <section id="contact" >
       <div>
         <h1 className='text-5xl md:text-8xl'>
           # never stop
         </h1>
         <br/>
-        <div className='md:absolute hidden top-36 bg-green-400 text-black p-8 text-2xl w-2/6 rounded-full' id='show_msg'>
+        <div className='md:absolute hidden top-36 bg-green-400 text-black p-8 text-2xl rounded-full' id='show_msg'>
           <h5 className='absolute right-8'
           style={{'cursor':'pointer'}}
           onClick={
@@ -46,7 +46,7 @@ function Contact() {
         </div>
       </div>
   
-      <div className='text-2xl md:absolute right-40'>
+      <div className='text-2xl md:absolute md:right-40'>
       <form ref={form_data} onSubmit={sendEmail} id='contact_form' target="blank" className='form' method="POST" >
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="user_name" required /><br />

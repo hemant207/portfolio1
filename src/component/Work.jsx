@@ -69,7 +69,7 @@ const workStyles = {
   return (
     <div className='works'>
     <section id="work" >
-      <h1 className="text-5xl font-bold text-center" style={sectionTitleStyles}>Certifications</h1>
+      <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center">Certifications</h1>
       {projects.map((project, index) => (
         <center>
         <Project

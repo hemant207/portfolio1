@@ -1,14 +1,15 @@
 /* Form.css */
 .contect{
-  min-height:100vh ;
+  min-height:110vh ;
+  max-height:120vh ;
   background-color: white;
 }
 
 form {
-  padding: 2rem;
+    padding: 2em;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: auto;
     margin: 0 auto;
     background-color: aliceblue;
   }
@@ -21,7 +22,6 @@ form {
   
   input,
   textarea {
-    padding: 8px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
