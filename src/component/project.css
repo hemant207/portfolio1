@@ -1,0 +1,17 @@
+.skill_div:hover{
+background-color: black;
+color: white;
+cursor:cell;
+}
+
+.project{
+    background-color:#c0f432;
+    border-radius: 15px;
+    box-shadow: 5px 10px;
+}
+
+.works{
+    background-color:azure;
+    padding: 2rem;
+
+}

@@ -1,0 +1,58 @@
+    .about{
+        padding: 10px;
+        background: rgb(2,0,36);
+        background: linear-gradient(63deg,  rgba(6,244,202,1) 0%, rgb(15, 160, 232) 35%, rgba(0,212,255,1) 100%);
+        background: aliceblue;
+    }
+
+
+    .skill_list ul li{
+        text-transform: uppercase;
+        padding: 10px;
+        list-style: none;
+        box-shadow: 10px;
+        
+    }
+
+    .skill_list_li {
+        width: 450px;
+        background-color: rgb(16, 16, 16);
+        opacity: 0.8;
+        color:seashell;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px;
+    }
+
+    .skill_list_li h1{
+        font-size: larger;
+        font-weight: bolder;
+        margin: 10px;
+        position: relative;
+        text-shadow:2px 2px #FF0000;
+    }
+    h1 {
+        animation: glitch 3s reverse infinite;
+    }
+    .skill_list ul li:hover{
+        background-color: maroon;
+        color: white;
+        font-size: larger;
+       
+    }
+
+    @keyframes glitch {
+        0%  {
+          text-shadow: -4px 3px 0 red, 2px -3px 0 blue;
+         
+        }
+        5% {
+          text-shadow: 4px -3px 0 red, -2px 3px 0 blue;
+         
+        }
+        8%,100% {  text-shadow: none; transform: none; }
+      }
+
+   

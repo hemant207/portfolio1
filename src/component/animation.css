@@ -1,0 +1,13 @@
+.animationPage{
+    color: burlywood;
+    align-items:center;
+    color: white;
+    animation: mymove 8s alternate-reverse infinite ;
+    
+}
+
+@keyframes mymove {
+    0%   {top: 0px; width:-5%;font:10em}
+    20%   {top: 0px; background: red;width:-5%;font:10em}
+    100% {top: 200px; background: rgb(202, 202, 21); width: 100%;}
+  }

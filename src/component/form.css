@@ -1,0 +1,45 @@
+/* Form.css */
+.contect{
+  min-height:100vh ;
+  background-color: white;
+}
+
+form {
+  padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+  
+
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
