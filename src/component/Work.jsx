@@ -18,7 +18,12 @@ const projects = [
   // Add more projects here as needed
 ];
 
-const projects2 = [
+const projects2 = [{
+    title: `Manisha Offset - An innovative printing solution`,
+    link: 'https://manisha-offset.vercel.app/',
+    description: `This is client's website for thier priting bussiness.`,
+    skills:["Next.js","TypeScript","Express.js","Node.js","TailWind-Css","Cascading Style Sheets (CSS)"]
+  },
   {
     title: `Emailer - An Brodcast Email app`,
     g_link:"https://github.com/hemant207/emailSender",
